@@ -1,0 +1,6 @@
+jscience: jscience-4.3.1.jar
+
+-buildpath: ${jscience}; version=file
+
+Private-Package: foo
+Include-Resource: @${jscience}
